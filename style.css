@@ -39,8 +39,8 @@ header p {
   margin-bottom: 20px;
 }
 
-section {
-  background-color: #1c1c1c;  /* Màu tối cho section */
+.content {
+  background-color: #1c1c1c;  /* Màu tối cho nội dung */
   padding: 40px;
   margin: 30px 15px;
   border-radius: 10px;
