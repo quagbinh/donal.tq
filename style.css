@@ -10,6 +10,7 @@ body {
   color: #e0e0e0;  /* Màu chữ sáng hơn */
   line-height: 1.6;
   margin: 0;
+  font-weight: 400; /* Thêm font-weight chung cho body */
 }
 
 .container {
@@ -31,14 +32,14 @@ header {
 header h1 {
   font-size: 3em;
   margin-bottom: 20px;
-  font-weight: 400;
+  font-weight: 700; /* Làm tiêu đề đậm hơn */
   letter-spacing: 2px;
 }
 
 header p {
   font-size: 1.2em;
   margin-bottom: 15px;
-  font-weight: 300;
+  font-weight: 500; /* Làm chữ trong header đậm hơn */
 }
 
 .content {
@@ -47,12 +48,14 @@ header p {
   margin-bottom: 30px;  /* Giảm khoảng cách dưới content */
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  font-weight: 500; /* Làm chữ trong content đậm hơn */
 }
 
 footer {
   text-align: center;
   font-size: 0.9em;
   color: #888;
+  font-weight: 400;
 }
 
 footer p {
